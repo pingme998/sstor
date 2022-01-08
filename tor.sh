@@ -12,6 +12,6 @@ do
     then
         date >>date
         cat date
-        proxychains4 bash /entrypoint.sh
+        bash /entrypoint.sh
     fi
 done
